@@ -41,3 +41,46 @@ footer {
     color: black;
 }
 
+
+
+
+
+/* Contenedor de las secciones */
+#contenido {
+    display: flex; /* Usamos flexbox para alinear las secciones lado a lado */
+    justify-content: space-between; /* Espacio entre las secciones */
+    align-items: flex-start; /* Alineamos el contenido al inicio (arriba) */
+    gap: 20px; /* Espacio entre las secciones */
+    margin: 20px;
+}
+
+/* Estilos para la sección "Sobre mí" */
+#sobre-mi {
+    flex: 1; /* Hace que ocupe el mismo espacio que la sección de proyectos */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+
+/* Estilos para la sección "Proyectos" */
+#proyectos {
+    flex: 1; /* Hace que ocupe el mismo espacio que la sección sobre mí */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+
+/* Mejoras de estilo para las listas de proyectos */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+
+
